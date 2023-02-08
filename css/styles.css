@@ -19,7 +19,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 /* Nav Bar */
@@ -50,18 +50,27 @@ h3 {
 }
 
 /* Download Buttons */
+
 .download-btn {
     margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
+
 .title-img {
-    width: 60%;
-    transform: rotate(30deg);
+    transform: rotate(25deg);
+    width: 20%;
+    position: absolute;
+    right: 20%;
 }
 
 /* Features */
 
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative; 
+}
 .feature-descr {
     color: #8f8f8f;
 }
@@ -78,10 +87,6 @@ h3 {
 .feature-box {
     text-align: center;
     padding: 5%;
-}
-
-#features {
-    padding: 7% 15%;
 }
 
 /* Testimaonials */
