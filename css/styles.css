@@ -2,9 +2,18 @@ body {
     font-family: "Montserrat";
 }
 
-h1 {
+h1,
+h2 {
     font-family: "Montserrat";
     font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+
+h3 {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 1.5;
 }
@@ -52,12 +61,6 @@ h1 {
 }
 
 /* Features */
-.feature-title {
-    font-family: "Montserrat";
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 1.5;
-}
 
 .feature-descr {
     color: #8f8f8f;
@@ -79,4 +82,19 @@ h1 {
 
 #features {
     padding: 7% 15%;
+}
+
+/* Testimaonials */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
 }
