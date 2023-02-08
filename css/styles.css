@@ -132,6 +132,37 @@ h3 {
     text-align: center;
 }
 
+/* Call to Action  */
+
+#cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#cta-text {
+    font-size: 3rem;
+}
+
+/* Footer  */
+
+.footer-icon {
+    margin: 10px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+}
+
+#copyright {
+    color: #8f8f8f;
+    padding-top: 5px;
+}
+
+/* Media Queries */
+
 @media (max-width: 991px) {
 
     .title-img {
