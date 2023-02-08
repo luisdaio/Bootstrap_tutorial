@@ -87,7 +87,6 @@ h3 {
 /* Testimaonials */
 
 #testimonials {
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -97,6 +96,10 @@ h3 {
     width: 10%;
     border-radius: 100%;
     margin: 2%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 /* Press */
@@ -110,4 +113,15 @@ h3 {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+/* Pricing */
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
 }
